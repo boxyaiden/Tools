@@ -1,0 +1,19 @@
+Use "GitBash here"
+
+// Clone a folder 
+git clone https://github.com/boxyaiden/Tools.git after creating the folder in GitHub.com
+
+// Display all the files 
+ls, pwd, dir 
+
+// Status of files or directories - Untracked files. 
+git status 
+
+// Move to the stage, but not commits yet 
+git add filename.txt 
+git add -A 	// add all files in the directory. 
+
+// Commit 
+git commit -m "Some sort of message"
+
+ 
