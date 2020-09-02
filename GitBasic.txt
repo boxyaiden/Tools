@@ -1,6 +1,10 @@
 Use "GitBash here"
 
-// Clone a folder 
+// Configure your connection first 
+git config --global user.name "movaiden"
+git config --global user.email "aiden.lee@movandi.com"
+
+// Clone ==> will create a folder
 git clone https://github.com/boxyaiden/Tools.git after creating the folder in GitHub.com
 
 // Display all the files 
@@ -11,7 +15,8 @@ git status
 
 // Move to the stage, but not commits yet 
 git add filename.txt 
-git add -A 	// add all files in the directory. 
+git add -A 	// add all files in the directory.
+git add Documentation/\*.txt 
 
 // Commit 
 git commit -m "Some sort of message"
