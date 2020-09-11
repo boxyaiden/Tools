@@ -1,22 +1,30 @@
-
-ContinuityTest
-SetVoltageAndMeasure
-DUTPowerOn
-DUTIndivisualPowerOn
+<< SMU >>
 MeasureVoltage
-DigitalBurstPattern
-ApplytimingandBurstPattern
-LeakageTest_LV
-LeakageTest
-SPI_RegRead_Flat
-SPI_RegReag_Dynamic
-Reset_PA_LNA
-BandGapCal_RTL
+SetVoltageAndMeasure
 B1_On_Supply_Measurement
 PA_PS_Current_Measure
-Temp_Sensor
+
+<< Digital >>
+DigitalBurstPattern
+ApplytimingandBurstPattern
+
+<< SPI >>
+SPI_RegRead_Flat
+SPI_RegReag_Dynamic
 RegAddrAndData
-DUT_Setup
+
+<< Test Items >>
+ContinuityTest
+LeakageTest_LV
+LeakageTest
+BandGapCal_RTL
+Temp_Sensor
 ProcessMonitorDigital
+
+<< DUT Setup >>
+DUTPowerOn
+DUTIndivisualPowerOn
+Reset_PA_LNA
+DUT_Setup
 DUT_Setup
 DUTPowerDown
