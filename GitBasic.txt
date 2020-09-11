@@ -1,8 +1,11 @@
 Use "GitBash here"
 
-// Configure your connection first 
+// Identify who for the record. 
 git config --global user.name "movaiden"
 git config --global user.email "aiden.lee@movandi.com"
+
+// Initialize a repository 
+git init 
 
 // Clone ==> will create a folder
 git clone https://github.com/boxyaiden/Tools.git after creating the folder in GitHub.com
@@ -14,13 +17,25 @@ ls, pwd, dir
 git status 
 
 // Move to the stage, but not commits yet 
-git add filename.txt 
+git add filename.txt file2.txt 
 git add -A 	// add all files in the directory.
+git add .       // add all files in the staging area 
 git add Documentation/\*.txt 
 
 // Commit 
 git commit -m "Some sort of message"
 
+// Commit history
+git log 
+
+// Back to old time 
+git checkout commit-hash
+
+// branching 
+git branch Prabuddha
+
 // Push to the GitHub cloud. 
 git push -u origin master 
 
+// Remove a file. 
+git rm third.txt 
